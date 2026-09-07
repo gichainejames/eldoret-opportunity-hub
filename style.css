@@ -1,0 +1,87 @@
+/* Eldoret Opportunity Hub - Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #838c8449;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header */
+h2:first-of-type {
+  color: #25549b;
+  font-size: 28px;
+}
+h2:first-of-type i {
+  color: #198754;
+}
+
+/* Navigation Links */
+a {
+  text-decoration: none;
+  color: #0f15d1e0;
+  font-weight: 600;
+  margin-right: 8px;
+}
+a:hover { color: #198754; text-decoration: underline; }
+hr { border: 1px solid #e0e0e0; margin: 20px 0; }
+
+/* Search Box */
+form {
+  background: rgba(90, 97, 91, 0.461);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+button {
+  background: #0abf16;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover { background: #09109a8e; }
+
+/* Sections */
+h2 { margin: 25px 0 15px; color: #212529; }
+#jobs, #attachments, #scholarships, #contact { scroll-margin-top: 20px; }
+
+/* Job List */
+ul { list-style: none; }
+ul li {
+  background: rgba(128, 162, 174, 0.277);
+  margin-bottom: 10px;
+  padding: 15px;
+  border-left: 4px solid #0d6efd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+ol li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+}
+
+/* Contact Form */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
